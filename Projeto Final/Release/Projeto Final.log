@@ -1,0 +1,25 @@
+﻿Build started 2/13/2014 8:23:56 AM.
+     1>Project "C:\Users\Leonardo\Google Drive\Projects Visual Studio 2012\Projeto Final\Projeto Final\Projeto Final.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Leonardo\Programação\allegro 5.0.10\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\labirinto.h(10): warning C4005: 'CAMINHO' : macro redefinition
+                 c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\funcoes_para_escrever.h(20) : see previous definition of 'CAMINHO'
+     1>c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\pathfinder.h(32): warning C4005: 'BONUS' : macro redefinition
+                 c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\funcoes_para_escrever.h(17) : see previous definition of 'BONUS'
+     1>c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\pathfinder.h(34): warning C4005: 'CAMINHO' : macro redefinition
+                 c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\labirinto.h(10) : see previous definition of 'CAMINHO'
+     1>main.cpp(33): warning C4005: 'BONUS' : macro redefinition
+                 c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\pathfinder.h(32) : see previous definition of 'BONUS'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Leonardo\Google Drive\Projects Visual Studio 2012\Projeto Final\Release\Projeto Final.exe" /NOLOGO /LIBPATH:"C:\Leonardo\Programação\allegro 5.0.10\lib" "allegro-5.0.10-monolith-md.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Leonardo\Google Drive\Projects Visual Studio 2012\Projeto Final\Release\Projeto Final.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Leonardo\Google Drive\Projects Visual Studio 2012\Projeto Final\Release\Projeto Final.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+     1>c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\alocacao_dinamica.h(81): warning C4715: 'libera_vetor' : not all control paths return a value
+     1>c:\users\leonardo\google drive\projects visual studio 2012\projeto final\projeto final\alocacao_dinamica.h(49): warning C4715: 'libera_matriz' : not all control paths return a value
+         Finished generating code
+         Projeto Final.vcxproj -> C:\Users\Leonardo\Google Drive\Projects Visual Studio 2012\Projeto Final\Release\Projeto Final.exe
+     1>Done Building Project "C:\Users\Leonardo\Google Drive\Projects Visual Studio 2012\Projeto Final\Projeto Final\Projeto Final.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.51
